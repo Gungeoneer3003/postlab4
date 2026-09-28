@@ -1,4 +1,4 @@
-module Top(
+module behavioralMultiplexer(
     input  logic I_0,
     input  logic I_1,
     input  logic I_2,

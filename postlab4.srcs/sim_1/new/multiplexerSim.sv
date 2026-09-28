@@ -1,4 +1,4 @@
-module TopSim();
+module multiplexerSim();
     logic sI_0;
     logic sI_1;
     logic sI_2;
@@ -7,7 +7,7 @@ module TopSim();
     logic sY;
 
 
-    Top UUT (
+    behavioralMultiplexer UUT (
         .I_0(sI_0),
         .I_1(sI_1),
         .I_2(sI_2),
