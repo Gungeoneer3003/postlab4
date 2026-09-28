@@ -21,6 +21,35 @@
 
 
 module structMultiplexer(
-
+        input   logic A,
+        input   logic B,
+        input   logic [1:0] SEL,
+        output  res
     );
+    
+    logic xorOutput;
+    logic andOutput;
+    logic muxOutput;
+    logic notOutput;
+    
+    assign xorOutput = A ^ B;
+    assign andOutput = A & B;
+    
+    SimpleMUX mux0 (
+        .I_0(andOutput),
+        .I_1(xorOutput),
+        .SEL(SEL[1]),
+        .Y(muxOutput)
+    );
+
+    assign notOutput = ~muxOutput;
+    
+    SimpleMUX mux1 (
+        .I_0(muxOutput),
+        .I_1(notOutput),
+        .SEL(SEL[0]),
+        .Y(res)
+    );
+    
+    
 endmodule
