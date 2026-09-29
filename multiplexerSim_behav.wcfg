@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="multiplexerSim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="multiplexerSim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="425201fs"></ZoomEndTime>
+      <Cursor1Time time="56000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="293"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/multiplexerSim/sI_0" type="logic">
+      <obj_property name="ElementShortName">sI_0</obj_property>
+      <obj_property name="ObjectShortName">sI_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multiplexerSim/sI_1" type="logic">
+      <obj_property name="ElementShortName">sI_1</obj_property>
+      <obj_property name="ObjectShortName">sI_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multiplexerSim/sI_2" type="logic">
+      <obj_property name="ElementShortName">sI_2</obj_property>
+      <obj_property name="ObjectShortName">sI_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multiplexerSim/sI_3" type="logic">
+      <obj_property name="ElementShortName">sI_3</obj_property>
+      <obj_property name="ObjectShortName">sI_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multiplexerSim/sSEL" type="array">
+      <obj_property name="ElementShortName">sSEL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sSEL[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/multiplexerSim/sY" type="logic">
+      <obj_property name="ElementShortName">sY</obj_property>
+      <obj_property name="ObjectShortName">sY</obj_property>
+   </wvobject>
+</wave_config>

@@ -66,9 +66,7 @@ module multiplexerSim();
 
         sSEL = 2'b11;
         #10;
-
-
+        
+        $finish;
     end
-
-
 endmodule
